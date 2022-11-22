@@ -1,0 +1,1 @@
+/rpa edit description add Leaping Charge allows the user to instantly rush to a Target Enemy in Emote Range. The user always lands on the side closest to themselves. If the Target is running away or fleeing, this Technique also includes a guaranteed hit. This does not allow for any vertical movement outside of slight inclines. Leaping Charge has a 60 Minute Cooldown.
