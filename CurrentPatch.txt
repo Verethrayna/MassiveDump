@@ -1,0 +1,46 @@
+/rpa create Temperature Expert
+/rpa edit type Constant_Passive
+/rpa edit range Self
+/rpa edit description add The user has trained in temperature resistance, and becomes immune to harm from cold or heat (though can still freeze, or be hurt by fire). Additionally, temperature based slowing effects such as having to wade through knee-high snow, or jogging in the desert, does not cause fatigue, slow-down, or any other negative effects from environmental movement. This does not affect Abilities with ice or fire aesthetics.
+
+/rpa create Swimming Expert
+/rpa edit type Constant_Passive
+/rpa edit range Self
+/rpa edit description add The user is able to swim at the speed of Mai-Allar and is able to hold their breath for much longer underwater, while also not being detrimentally affected by sight underwater. Additionally, once per day (refreshed on Server Restart), the user can guarantee a dodge on an Attack Emote against them, so long as it was used on them underwater. This Mundane Technique does not grant the user the ability to fight underwater as if it was above water.
+
+/rpa create Building Smash
+/rpa edit type Mundane_Technique
+/rpa edit range Melee Range
+/rpa edit description add This Mundane Technique can be used on a building, so long as another person is standing on its roof, or on some higher ledge like a roof trim or balcony or top of a tower. When used, the user smashes into the building causing it to shake and destabilize any person standing on top of it. Anyone standing on a higher ledge of such a building will fall off the building, forward towards the user. The person falling will not take damage from falling, and will not get Knocked Over on landing, but is unable to use any Movement Power for 5 minutes. This Ability has a 1 Hour Cooldown.
+
+/rpa create Building Scale
+/rpa edit type Movement_Power
+/rpa edit range Melee Range
+/rpa edit description add The user rapidly scales up a building they are standing next to, or a roof (the user cannot climb higher than 24 blocks, and is expected to use an Ender Pearl to get up to the ledge where they would land). If landing on a roof, the user is able to stand on this roof, but cannot move to other roofs without falling off. This Ability has a 3 Hour Cooldown.
+
+/rpa create Body Adaptability
+/rpa edit type Constant_Passive
+/rpa edit range Self
+/rpa edit description add The user has trained their metabolism and body adaptability to the point that Proficiency Affecting Abilities or Mundane Techniques increase further. If affected by an active Ability that changes any Proficiency, it is changed by one extra point (If a character gains 2 Points, they gain an extra 1, if they lose 2 Points, they lose an extra 1). This does not apply to passive bonuses to a user’s proficiencies, only Abilities that actively target them directly.
+
+/rpa create Bouncer Throw
+/rpa edit type Mundane_Technique
+/rpa edit range Melee Range
+/rpa edit description add This Mundane Technique can only be used inside a Business Region, or the doorway/lobby of any other Building (such as an Estate, Base, or Rental). The user grapples onto a Target and instantly hurls them out of the building, whether through a window, or a doorway or opening in any wall. The Target does not take any damage, but is ejected at least 7 blocks away from the hole they were thrown out of, and are Knocked Over on landing. This Ability has a 1 Hour Cooldown.
+
+/rpa create Ally Throw
+/rpa edit type Mundane_Technique
+/rpa edit range Melee Range
+/rpa edit description add This Mundane Technique can only be used on an Ally in Melee Range. The user grapples onto the Target and instantly hurls them anywhere within 10 blocks, including a higher ledge or surface at a different height than the user. The Target does not take damage from this Mundane Technique, but are Knocked Over on landing. This Ability has a 1 Hour Cooldown.
+
+/rpa create Brawl Stampede
+/rpa edit type Mundane_Technique
+/rpa edit range 10 Blocks
+/rpa edit description add The user commences a charge in one straight line in a particular direction, stampeding forward by 10 Blocks. If they ran through a Barrier, someone behind Mundane Cover, or a Magical Shield or Barrier, said barrier, or cover is destroyed, though no damage or Displacement is applied to anyone along its path. This can also break a small hole through wooden and stone walls, but only if they are 1 block thick. This Ability has a 3 Hour Cooldown. 
+
+/rpa create Disarm Immune
+/rpa edit type Constant_Passive
+/rpa edit range Self
+/rpa edit description add The user is immune to any Abilities, Specials, or Mechanics that would disarm them of their weapon, or degrade or destroy it.
+/rpa edit modifiers create
+/rpa edit modifiers add Dwarf This Ability also applies to Shields the Dwarf is using.
