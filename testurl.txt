@@ -1,1 +1,740 @@
+/rpa create Altered Power
+/rpa edit type Constant_Passive
+/rpa edit range Self
+/rpa edit description add If the user has 2 or less Spell Packs bought from Spell Point-Buy, these Spells become a dimension clarified in the modifier, instead of Void or Exist. Having 3 or more Magic Spells defaults all of them to Void or Exist. This still makes the user an Occult, however they will be Occult of the dimension specified in the Modifier.
+/rpa edit modifiers create
+/rpa edit modifiers add Eronidas Eronidas make use of Altered Power to change two Spell Packs into Ordial. This makes them an Ordial Occult if they have 2 or less Spell Packs.
+/rpa edit modifiers add Bralona Bralona make use of Altered Power to change two Spell Point Buy Packs into Primal.
+
+/rpa create Area Power
+/rpa edit type Constant_Passive
+/rpa edit range Self
+/rpa edit description add The user can use Spell Point Buy Abilities in any environment regardless of the dictated circumstances, for example Underwater (without water drag/visibility issues) in heavy stormy weather, in pitch-black rooms or in areas devoid of pressure or air.
+/rpa edit modifiers create
+/rpa edit modifiers add Curses The user can also use Curses Point Buy Abilities in any environment.
+
+/rpa create Asha Speed
+/rpa edit type Constant_Passive
+/rpa edit range Self
+/rpa edit description add The Character is permanently as fast as an Asha. This means they can outrun any other Race, unless they also have “As fast as an Asha” as part of their Abilities or Mechanics. Asha speed confers no benefits in combat, it is only for escaping/running fast to a point.
+
+/rpa create Body Ranged
+/rpa edit type Constant_Passive
+/rpa edit range Self
+/rpa edit description add The user is capable of using their own body as a ‘weapon’ for the use of Basic Attack and Mundane Techniques from Ranged Point Buy. They do not need to use an actual ranged weapon, or even summon a weapon from their body for this (but they could if they want to), but they cannot quick-swap between using a Melee weapon they have in hand, and are expected to treat it with fairness in mind.
+
+/rpa create Control Immune
+/rpa edit type Constant_Passive
+/rpa edit range Self
+/rpa edit description add The user is immune to any Control Abilities that would be applied to them. They can however choose to permit the Control Ability to work if they are aware it is being used on them beforehand and want the effect to apply.
+/rpa edit modifiers create
+/rpa edit modifiers add Dwarf The Dwarf is additionally immune to any Abilities (even non-Control Powers) that would alter or remove their Memories in any way, shape, or form.
+/rpa edit modifiers add Bralona Bralona are additionally immune to any Abilities or Specials that would read their mind, or interfere with their memories or 'minds' due to their lack of traditional brains, or bodies. They are still susceptible to anything that 'reads' based on Souls.
+
+/rpa create Enemy Linkproof
+/rpa edit type Constant_Passive
+/rpa edit range Self
+/rpa edit description add The user is immune to any Link Powers that an enemy or opponent tries to apply to them, the Link Power simply cannot target them. Allies can still use Link Powers, and Abilities that break Link powers also still work.
+
+/rpa create Eternal Durability
+/rpa edit type Constant_Passive
+/rpa edit range Self
+/rpa edit description add The user is immune to any damage inflicted with the Unarmed Pack in Melee Weapon Point Buy. Additionally, any Mundane Techniques in Defensive Point Buy do not require a Shield to use, instead allowing the body of the user to be used. If these Techniques require the user to immobilize themselves, or hold a shield up, etc, the user cannot engage in other actions at the same time and must hold their arms/body up to block it. If this is done, these Mundane Techniques still hurt them.
+
+/rpa create Eyes of the Hunt
+/rpa edit type Constant_Passive
+/rpa edit range Self
+/rpa edit description add The user has night vision, allowing them to see fine during the night, as if it was day. Additionally, the user is also immune to any Mundane based Darkness or Blindness (such as blindfolds or masks) but not Ability based Darkness or Blindness.
+/rpa edit modifiers create
+/rpa edit modifiers add Kathar The Kathar can choose to have red or golden glowing eyes when using this Ability behind a blindfold, but this is optional.
+
+/rpa create Flame Immune
+/rpa edit type Constant_Passive
+/rpa edit range Self
+/rpa edit description add The user is immune to any damaging properties of fire whether that is from an Ability, or Environment. The user can simply walk through fire without it burning them, though they can still be harmed by magma. This does not apply to optional fire aesthetics being applied to Abilities.
+
+/rpa create Ghost Recall
+/rpa edit type Constant_Passive
+/rpa edit range Self
+/rpa edit description add The user installs a Ghost Recall device on themselves. First, all of the user’s memories are remotely backed up in a Control Unit in their Rental/Estate/Base. No Ability or Mundane Technique can affect their memories in any way, nor can any of their memories be altered. Secondly, if the person dies, their consciousness is uploaded as an engram to their Control Unit, which can then be installed by another into a Mechwalker or Automaton to revive them as this mechanical being, or into a Bralona to create another personality residing in the same body. This Ability can only be used on self.
+/rpa edit modifiers create
+/rpa edit modifiers add Technician Can only be engineering based.
+
+/rpa create Home Advantage
+/rpa edit type Constant_Passive
+/rpa edit range Region
+/rpa edit description add While within their own Rental Region or a Noble Estate / Clandestine Base that they are a member of, the user gains +1 Constitution and +1 Strength while inside the Building.
+/rpa edit modifiers create
+/rpa edit modifiers add Sihndar Sihndar include areas of ‘nature’, on top of their home region, giving them the full benefits of Home Advantage while they are in these areas. ‘Nature’ means anywhere outside of the city’s outer boundaries and areas with homes or construction, and any forest/grass/mountain area with no homes.
+
+/rpa create Invasion Immune
+/rpa edit type Constant_Passive
+/rpa edit range Self
+/rpa edit description add The user is Immune to any type of Invasion or Control that would cause some other entity to invade their body or mind, and control it. This also applies to Ordial Shades, Void and Exist Demons, but not Greater Demons or Event Entities. Additionally, the user will also know that they were just invaded, but they cannot forcibly expel the invader if they do not want to leave. Finally, they can choose to let the invader take control, but can take control back anytime.
+/rpa edit modifiers create
+/rpa edit modifiers add Teledden Teledden have such Invasion Immunity that they can imprison an invader in their body against their will, or expell them against their will. Inside a Teledden's body, an invader becomes a powerless passenger who can only act when the Teledden lets them.
+
+/rpa create Knockdown Immune
+/rpa edit type Constant_Passive
+/rpa edit range Self
+/rpa edit description add The user is immune to any Ability that would cause them to be knocked over. Damage is still applied, but the Character is never Knocked over or Knocked down.
+
+/rpa create Lifelink Engineering
+/rpa edit type Constant_Passive
+/rpa edit range Emote Range
+/rpa edit description add The user has installed a Lifelink device onto their body, that prevents them from causing any damage through Abilities or basic attacks. Instead, the user can target any character within range that they can see, and place a beam of healing energy on them. While targeted with the beam, a character heals their most recent wound every five minutes. This beam can be sustained indefinitely and switched between targets freely, but if broken or ended manually this Ability goes on a 10 minute cooldown.
+
+/rpa create Limb Recovery
+/rpa edit type Constant_Passive
+/rpa edit range Self
+/rpa edit description add The user has extreme body-loss replenishment. So long as their head and torso stay relatively intact, they can regrow any lost limb in 48 hours, including eyes, tails, horns, fingers, a tongue, all of it. The Character can still pass out from pain or blood loss, but cannot die from injuries unless the brain or the heart is destroyed or severed from one another. Smaller wounds like cuts and gashes close in 10 minutes, though re-open if the user enters combat again within 1 hour. After the hour has passed, those wounds heal.
+/rpa edit modifiers create
+/rpa edit modifiers add Urlan Urlan need to consume meat before their lost limbs can regrow. They do not simply regrow on their own.
+/rpa edit modifiers add Curses This Ability does not activate until the user has Fed via their Affliction's Feeding Mechanics. After the user Feeds, they gain this Ability until they are fully healed, and it goes dormant again.
+
+/rpa create Mindtap Immune
+/rpa edit type Constant_Passive
+/rpa edit range Self
+/rpa edit description add The user is immune to any Specials or Abilities that would alter, erase or add memories. This includes even Passives or Abilities that only trigger on certain conditions, like Lesarra face-remembering.
+
+/rpa create Omniaware
+/rpa edit type Constant_Passive
+/rpa edit range Self
+/rpa edit description add The user cannot be taken by surprise from any direction, even if they cannot see the direction from which an attack or Ability is coming from. While this is a constant effect, once per day the user can also use this Omniawareness to guarantee a dodge or counter attack. This does not work on Mundane Techniques or Abilities.
+
+/rpa create Primed Defense
+/rpa edit type Constant_Passive
+/rpa edit range Self
+/rpa edit description add Once every 24 hours, the user is immune to the first mundane (non Ability and non Mundane Technique) attack emote used on them, allowing them to inexplicably avoid it.
+
+/rpa create Subjugation Immune
+/rpa edit type Constant_Passive
+/rpa edit range Self
+/rpa edit description add The user is immune to any Specials that would involve establishing mind control or command control over them.
+/rpa edit modifiers create
+/rpa edit modifiers add Bralona Bralona cannot have their body possessed or invaded in the traditional sense, due to their (either) high viscosity or density. They are immune to Vehicle Powers, as the target either starts to suffocate, or is forcibly ejected. This immunity cannot be ignored/turned off under any circumstances (except by Higher Powers).
+
+/rpa create Waterborne
+/rpa edit type Constant_Passive
+/rpa edit range Self
+/rpa edit description add This Ability has several functions. Firstly, while inside (minecraft) water, the user can fight (such as slashing weapons) at normal speeds as if they were outside of the water. This does not include Firearms or Ranged weapons which do not work underwater. Secondly, user is not slowed down by armor or clothes that would normally drag while underwater, though wearing armor does force them to walk on the bottom of the body of water and prevents them from swimming around. Finally, jumping in and out of the water is near-instant for the user, meaning there is never an interruption of a chase or manuever while going in and out of water.
+
+/rpa create Higher Speed
+/rpa edit type Toggle_Passive
+/rpa edit range Self
+/rpa edit description add The Character can drop on all fours and run “Even faster than an Asha”. This Ability is singular, there is nothing faster than this Ability. While using this Ability, the user is unable to wield any weapons, use Abilities or Mundane Techniques, or fight, though they can fight when they reach a person reverting back to normal speed.
+
+/rpa create Aiding Metal
+/rpa edit type Trigger_Passive
+/rpa edit range Self
+/rpa edit description add If any of the user’s limbs are Paralyzed, Dismembered, or Disabled, Liquid Living Metal can replace or repair their function by encasing it and taking over its function, making them immune to the Paralysis for example. This can only apply to one limb, or one eye, only ever one body part, and cannot be switched, only the first ever applies until that body part is healed.
+/rpa edit modifiers create
+/rpa edit modifiers add Asha This Ability can be used regardless of other Living Metal Abilities active.
+
+/rpa create Bralona Endurance
+/rpa edit type Trigger_Passive
+/rpa edit range Self
+/rpa edit description add Bralona have unique physiology. They cannot feel pain, or bleed, or be traditionally wounded, but their physical cohesion takes damage instead. Bralona cannot be harmed by mundane punches, kicks, or any other non-enhanced unarmed attack. They cannot die in the traditional sense. When they “die” their body disintegrates into a singular mass. Their mass can be moved, but their eventual re-generation cannot be stopped, and they are conscious, but can’t do anything but observe and talk. After 2 Hours, the Bralona completely regenerates and reforms at perfect health.}}
+/rpa edit modifiers create
+/rpa edit modifiers add Bralla The Bralla, when ‘killed,’ collapses into a pile of goo.
+/rpa edit modifiers add Bronn The Bronn, when ‘killed’, folds up into a small geometric shape on the ground (square, sphere, dodecahedron, etc.)
+
+/rpa create Ability Redirect
+/rpa edit type Instant_Power
+/rpa edit range Emote Range
+/rpa edit description add The user can redirect a single Power Targeting them, that is not a Link Power, onto any other person, either ally or enemy. This Power can be used once per day. Primal or Ordial Abilities also fall under this, as do Special Permission Abilities or Powers. The redirected Ability continues to follow range rules (Direct touch to Direct Touch, Emote Range to within Emote Range).
+
+/rpa create Arcane Knockback
+/rpa edit type Instant_Power
+/rpa edit range 1 Block
+/rpa edit description add The user can blast a chosen target within range, knocking them back up to 10 blocks in a chosen direction horizontally. This cannot be used to send a person over a ledge, but can be used to slam the target into an object or other person. The user can choose how many blocks to send the target back. This Ability has a 30 minute cooldown.
+
+/rpa create Break Enchant
+/rpa edit type Instant_Power
+/rpa edit range Melee Range
+/rpa edit description add The user Targets any person in Melee Range, striking them with a magically infused attack (that does no damage). This attack instantly depletes additive Health Pools and HP counters applied to enemies. This Ability has a 30 minute Cooldown.
+
+/rpa create Complete Barrier
+/rpa edit type Instant_Power
+/rpa edit range Self
+/rpa edit description add The user can shroud themselves in a defensive barrier, protecting them entirely from the effects of any attacks, Abilities, Mundane Techniques, or specials. While they are shrouded in such a way, they cannot move, attack, or use any Abilities, Mundane Techniques, or specials, they can only look around and talk. While this Ability can be activated near-instantly, the user cannot de-activate it until 15 minutes have passed, at which point it ends naturally. Once this Ability ends, it cannot be used again for 24 hours.
+
+/rpa create Debilitating Bite
+/rpa edit type Instant_Power
+/rpa edit range Self
+/rpa edit description add The user can target someone within range, instantly 'biting' them, which does no damage, and is guaranteed unless countered by an Ability Counter. If the target has exposed skin, the bite inflicts a rapidly-spreading magical malady that causes the target to lose 2 Strength for thirty minutes. The same person can only be affected by Debilitating Bite (from any source) once every 30 minutes. This ability has a two hour cooldown.
+/rpa edit modifiers create
+/rpa edit modifiers add Undead Any wounds inflicted by the Undead’s bite will appear to supernaturally rot and decay.
+
+/rpa create Detection Shroud
+/rpa edit type Instant_Power
+/rpa edit range Self
+/rpa edit description add The user can activate an invisible shroud over themselves alone, that makes them immune to any Detection mechanics, for the next hour. This Ability has a 12 hour cooldown.
+
+/rpa create Hack Familiar
+/rpa edit type Instant_Power
+/rpa edit range Emote Range
+/rpa edit description add The user can target any Ability or Special based Familiar (not Engineering) that is made of Magic or summoned through some form of non-real animal existence and hijack it. For the duration of 1 hour, this Familiar now obeys the user, and follows them around with the same rules as it would apply to its original owner, but it still cannot be compelled to attack its original owner. This Ability has a 48 hour cooldown.
+/rpa edit modifiers create
+/rpa edit modifiers add Kathar The Kathar can additionally also just outright banish the Familiar for the duration of one hour by lashing it with a golden or red ghostly chain.
+
+/rpa create Intrusive Metal
+/rpa edit type Instant_Power
+/rpa edit range Emote Range
+/rpa edit description add Liquid Living Metal on the user can be shot out as a projectile towards any Artificer or Technician Automaton or Mechwalker in range. This is guaranteed to hit unless the Target can use an ability that lets them create a reactive counter barrier before it hits. If it hits, the Living Metal starts seeping into the Automaton or Mechwalker and destroying the machine parts from the inside, thus instantly dealing 2 HP damage to it. If this Ability is used in a raid, it only does 1 HP damage. This Ability has a 24 hour Cooldown.
+/rpa edit modifiers create
+/rpa edit modifiers add Asha If this Ability is used while Warring Metal is active, Warring Metal is disabled for 1 Minute while the Living Metal recovers.
+
+/rpa create Magic Smash
+/rpa edit type Instant_Power
+/rpa edit range 5 Block
+/rpa edit description add The user can Target any gate (like the Prison front gate or a palisade barrier) or an Ability based Barrier within 5 Block Range, and instantly smash it. This Ability has a 5 hour Cooldown.
+
+/rpa create Reflection Strike
+/rpa edit type Instant_Power
+/rpa edit range 10 Blocks
+/rpa edit description add The user conjures an imperfect copy of themselves next to a target within range. This copy delivers a default melee hit (with a melee weapon or magic Combatforce) to the target before it vanishes. This hit functions as a normal melee hit as if the user had 5 Strength, and can be countered with block counters. This ability has a 1 hour cooldown.
+
+/rpa create Strangling Brand
+/rpa edit type Instant_Power
+/rpa edit range Emote Range
+/rpa edit description add The user places a mark above the head of a target that lasts for 5 minutes or until triggered. While marked, if the target utilizes a Mundane Technique the mark is consumed and the target becomes Weakened for 10 minutes, but does not cancel the triggering Technique. Strangling Brand has a 2 hour cooldown after the mark is consumed or times out on its own. The same person cannot be affected by Strangling Brand more than once every 2 hours.
+
+/rpa create Saving Grace
+/rpa edit type Instant_Power
+/rpa edit range 10 Blocks
+/rpa edit description add The user targets an ally within range, removing all current debuffs on them and pulling them to any block adjacent to the user. Saving Grace cannot cleanse debuffs from Artifacts. Saving Grace has a 2 hour cooldown.
+
+/rpa create Disrupting Rune
+/rpa edit type Instant_Power
+/rpa edit range 5 Blocks
+/rpa edit description add The user chooses a target within range, summoning a rune beneath them to knock the target off their feet instantaneously. Disrupting Rune has a 2 hour cooldown.
+
+/rpa create Armor Summon
+/rpa edit type Summon_Power
+/rpa edit range Self
+/rpa edit description add The user can summon any type of Armor on any part of their body. Summoned armor has the same durability as mundane armor, but counts as Ability Armor.
+/rpa edit modifiers create
+/rpa edit modifiers add Haat-Maraya Rather than summoning physical Armor, the Maraya's armor is rapidly self-encasing them in crystals that function like armor but still allow them to move.
+/rpa edit modifiers add Isldar Isldar Armor is their own scales (either purple or blue Dragonscale for Life Isldar or twisted black metal for Death Isldar). This transformation cannot be removed by anyone except the Isldar themselves.
+/rpa edit modifiers add Songaskian Rather than summoning physical Armor, the Songaskian's Armor is their hardened scales, and they can apply it to their entire body at once.
+/rpa edit modifiers add Undead The Armor can be of any appearance, and is always considered as being worn. It cannot be removed or disabled.
+
+/rpa create Knight Summon
+/rpa edit type Summon_Power
+/rpa edit range Self
+/rpa edit description add The user can summon three things (either all at the same time, or only one/multiple): A full set of Armor, a Shield, and a Melee Weapon of any kind. These can be summoned on the user, but can also be summoned on others in Emote Range, and even be divided over different people, so long as a single one of each is produced. These summoned items can leave Emote Range, but cannot be switched between people. If one of the items is destroyed or unsummoned, all of them disappear. Both when unsummoned or destroyed, the Ability has a 1 Hour Cooldown.
+
+/rpa create Puppeteer
+/rpa edit type Summon_Power
+/rpa edit range Self
+/rpa edit description add The Character can conjure a proxy golem for them to control after a 10-second channel. They place their own body within a deep, stationary sleep, laid in a trance and surrounded by a magical barrier that prevents harm from coming to them while they are controlling the golem. The Golem has a fixed stat spread of 3 Strength, 4 Constitution, 2 Dexterity and 0 points in other attributes, and can have 1 Weapon Pack, can use Mundane Techniques, but cannot use any Abilities or Specials. When the Golem is destroyed, the user awakens from their trance and this ability is placed on a 24 hour cooldown.
+
+/rpa create Shield Summon
+/rpa edit type Summon_Power
+/rpa edit range Self
+/rpa edit description add The user can summon any type of shield into their hand with the toughness equivalent of steel. This shield functions like a normal shield would, and has the same durability. A destroyed summoned shield cannot be summoned again for 12 hours.
+
+/rpa create Warring Metal
+/rpa edit type Summon_Power
+/rpa edit range Self
+/rpa edit description add Liquid Living Metal on the user acts as both a Summon Armor that can cover parts or the whole body of the Asha, and a Summon Weapon that can take only the form of Melee Weapons. Finally, Living Metal cannot be destroyed or aged, however Abilities or Mundane Techniques that ignore armor or weaken it still apply. Only armor or one weapon can be active at any time, never both.
+
+/rpa create Weapon Summon
+/rpa edit type Summon_Power
+/rpa edit range Self
+/rpa edit description add The user can summon any type of weapon from Melee Weapon Point Buy, or Ranged Weapon Point Buy made out of Magic. This weapon functions like a normal weapon would, has the same durability, but does not use any ammunition to fire if ranged. The user can give the weapon to someone else, but can't summon more than one. A destroyed Summoned Weapon cannot be Summoned again for 12 IRL Hours.
+/rpa edit modifiers create
+/rpa edit modifiers add Dwarf/Sihai Any Weapon summoned is considered Mundane. For the Dwarves it is instantly cobbled together from nearby materials, for the Sihai it is summoned through a Draconic portal.
+/rpa edit modifiers add Demonology/Geist Firearms can be summoned. They can only summon one type of weapon, which must be written on their Character App. They cannot be disarmed, nor can they give it to someone else, and their weapon cannot be destroyed. Geists can make one Mundane Technique per day uncounterable, resetting at Server Restart.
+
+/rpa create Forgotten Face
+/rpa edit type Memory_Power
+/rpa edit range Emote Range
+/rpa edit description add When leaving Emote Range of another person, the user may force them to forget their face and voice. This must be dm'd to the Target when leaving Emote Distance, or send in OOC chat when applied to a group. This Ability cannot be used if the user is already Disguised by some other Ability or Special.
+
+/rpa create Memory Pearl
+/rpa edit type Memory_Power
+/rpa edit range Self
+/rpa edit description add The user can target any person that is restrained and unable to escape, and wipe the last 24 hours from their memory. This produces a memory pearl in the hand the of the user which is stored into a Pearl Pouch that must always be on the user, but cannot be pickpocketed. When inspecting the Pearl Pouch, anyone can magically recognize whose memories belong to what pearls. Crushing any pearl from any distance will result in the memories of those 24 hours returning to the Target. The Target will know their memory was stolen, but not by who, when, or where.
+
+/rpa create Arcane Ranged
+/rpa edit type Skill_Power
+/rpa edit range Self
+/rpa edit description add The user can use any Ranged Weapon Point Buy they have purchased while wielding any melee weapon without needing to switch to a bow. These Mundane Techniques instead are classified as Powers of a Magical nature, and can only be used if the user is not already mid-melee swing or Knocked Over. The ranged projectiles take the shape of the melee weapon wielded (this is purely visual) and can have a variety of different magical aesthetics and do not use ammunition. This Ability can only be used to use Mundane Techniques, and does not allow for the usage of Default Ranged Shot.
+/rpa edit modifiers create
+rpa edit modifiers add Solvaan The projectile weapons are always made out of mist and leave behind trails of mist as they travel to their intended target.
+
+/rpa create Magic Bolt
+/rpa edit type Skill_Power
+/rpa edit range Self
+/rpa edit description add The user can use magic to become a ranged caster. While they have this ability toggled on, they cannot use or wield Melee Weapons, Firearms, or Ranged Weapons (and any of their associated Techniques), but they can wield a shield and freely cast through their hands or other magical staff/wand/book/etc. They gain access to default Ranged Shot as a magical projectile while in 'casting mode,' and only need one emote to 'charge' and 'fire' simultaneously.'
+
+/rpa create Magic Throw
+/rpa edit type Skill_Power
+/rpa edit range Emote Range
+/rpa edit description add This Ability can only be used if the wielder has a Melee weapon. When used, the user throws their Weapon at a Target in Emote Range. The user may then choose any Ranged Weapon Point Buy Ability except Quick Cover and Tripwire Deploy, and have this throw count as one of those Abilities (having the pack is not required), but as a Power instead of a Mundane Technique.. When the Ability is complete, the weapon flies or teleports back to their hand. This Ability has a 1 Hour Cooldown.
+
+/rpa create Perfect Copy
+/rpa edit type Skill_Power
+/rpa edit range Emote Range
+/rpa edit description add The user targets another person in Emote Range, after which they produce a perfect copy of their entire kit, including: Proficiencies, Point Investments, and any additional Abilities they may have gained from Afflictions and Racials (but never Artifacts or Custom Kits), while losing all of their own from these categories. If Abilities are copied that the user already had and used, Cooldowns are not refreshed. If the person copied uses for example Ranged Point Buy and the user does not have a Bow on them, a Magical weapon is produced for them that allows them to use all Abilities with the same capability. The user is stuck with their Perfect Copy Kit for 24 hours, though the ability does not have a Cooldown.
+
+/rpa create Area Detection
+/rpa edit type Detection_Power
+/rpa edit range 10 Blocks
+/rpa edit description add The user creates a detection field up to 10 Blocks far around them that detects a couple of things while they are within this area. Firstly, it detects any hidden body-passengers like body merged individuals, parasites, or possessions (but not who). Secondly, it detects any hidden traps or secret compartments/pocket dimensions. Thirdly, it detects invisible or cloaked entities that use some type of Ability to stay hidden. This Ability is obviously telegraphed with glowing hands and eyes.
+/rpa edit modifiers create
+/rpa edit modifiers add Solvaan The detection field is flooded with knee-high mist that does not affect the users otherwise. Additionally, Solvaan Altalar may use this Ability on Progression or Event areas to detect hidden areas or functions (but only few of them will have hidden content).
+
+/rpa create Healing Hands
+/rpa edit type Healing_Power
+/rpa edit range Melee Range
+/rpa edit description add The user and the (willing) Target (who is not Knocked Out or Downed) must be rooted together for the duration of this Ability, and cannot use any Abilities, Mundane Techniques, or Specials while this Ability is active. The user establishes a Link Power onto the Target, healing any wounds and refreshing their stamina over the duration of 10 minutes. If the Link Power is Disrupted, or the user is Displaced or attacked, the Ability is Canceled, though this Ability has 5 minute Cooldown. This Ability can be used out of combat on a knocked out or downed target, but only if they do not return to combat for at least 2 hours afterwards.
+
+/rpa create Mercy of Life
+/rpa edit type Healing_Power
+/rpa edit range Self
+/rpa edit description add The user can Target any person who was Knocked Out, Downed, or lethally wounded to the point of near-death (a person completely disabled from a Combat Scene). This establishes a Link Power for 5 minutes that completely revives the person but does not refresh their Cooldowns. If this Link Power is Disrupted, the user is Displaced or attacked, the Ability is Canceled. If the Ability is Canceled, it goes on a 10 minute Cooldown. If however it succeeds, the Ability goes on a 24 hour Cooldown.
+
+/rpa create Shared Pain
+/rpa edit type Healing_Power
+/rpa edit range Emote Range
+/rpa edit description add The user can apply Shared Pain on another person in Emote Distance. While in effect, any wounds or pain the Target suffers are halved, and the other half is transferred to the user.
+
+/rpa create Battle Mentor
+/rpa edit type Buff_Power
+/rpa edit range Emote Range
+/rpa edit description add The user can target any other person in Emote Distance. They may choose any Proficiency (such as Strength or Dexterity or Constitution), and boost that person by 2 Points. Any person can only be affected by 1 Battle Mentor. When a target is chosen, Battle Mentor cannot be changed to a different Target for 5 minutes, even if the Target leaves Emote Distance (and the effect ends).
+
+/rpa create Empowerment
+/rpa edit type Buff_Power
+/rpa edit range Self
+/rpa edit description add The user gains +1 Strength and becomes as fast as an Asha in certain conditions. For the specific condition, consult the Modifier.
+/rpa edit modifiers create
+/rpa edit modifiers add Fin'ullen While it is (Minecraft) Raining in Regalia, a Fin’ullen Character gains +1 Strength and can move as fast as an Asha.
+/rpa edit modifiers add Curses This Ability does not activate until the user has Fed via their Affliction's Feeding Mechanics. After the user Feeds, they gain this Ability temporarily for 24 hours.
+
+/rpa create Enchanted Wall
+/rpa edit type Buff_Power
+/rpa edit range Emote Range
+/rpa edit description add The user casting this Ability becomes immune to harm from any projectile based attacks, such as Firearms, Ranged, and Spell Point Buy for 15 minutes. Additionally, they may choose two more Targets in Emote Distance to grant this protection to. Once the timer has expired, this Ability goes on a 24 Hour Cooldown.
+
+/rpa create Illusioned Self
+/rpa edit type Buff_Power
+/rpa edit range Self
+/rpa edit description add The user makes an additional Healthpool for themselves with three illusion clones. The user must be hit three times with any Ability or Mundane Technique or basic attack from any kind of weapon, before all illusions dissipate, and they can be attacked directly. This Ability has a 6 Hour Cooldown. If the user leaves Combat without all counters having expired, the Ability also goes on Cooldown.
+
+/rpa create Deathmarch
+/rpa edit type Movement_Power
+/rpa edit range Emote Range
+/rpa edit description add The user can select a target in range that they can see, causing a visible symbol to appear over the target’s head, and move toward them. They cannot stop themselves until the ability ends and must move in a direct line for the target, and can do anything that doesn’t make them stop. They cannot be slowed below their movement speed or halted, by any means. Any Ability-created barriers are shattered when they make contact, but normal barriers will stop them if they can’t be climbed over. The Ability ends once they are within 1 block of the target. This Ability has a 4 hour cooldown.
+/rpa edit modifiers create
+/rpa edit modifiers add Undead The symbol above the target’s head is an Ordial green sigil, representing the user of the ability in some personal way.
+
+/rpa create Endless Watch
+/rpa edit type Movement_Power
+/rpa edit range Emote Range
+/rpa edit description add The user's soul leaves their body, scanning Emote Range around themselves, and identifying each person within Emote Range, and who they are (unless they are presently Disguised or Shapeshifted.) The user may then choose one person in Emote Range, and instantly teleport behind them. This process is instant and can be performed in the same Emote, however any actions performed afterwards are new actions and new Emotes. This Ability has a 1 Hour Cooldown, regardless of whether the teleport was used or not.
+
+/rpa create Instant Leap
+/rpa edit type Movement_Power
+/rpa edit range Emote Range
+/rpa edit description add The user can instantly leap towards a Target person in Emote Range. The Target's speed does not matter, and the user can choose to land in front of, to the side of, or behind the target. This leap can only be used horizontally, and does not allow for any vertical movement outside of slight incline increases. Instant Leap has a 30 minute Cooldown.
+
+/rpa create Magic Blink
+/rpa edit type Movement_Power
+/rpa edit range Emote Range
+/rpa edit description add The user can instantly teleport to any location they can see in Emote Range that they would realistically be able to walk to. The user can slip through obstacles like doors or gates, but cannot reach different elevation levels or transport from rooftop to rooftop. This Ability has a 60 minute Cooldown.
+
+/rpa create Rift Step
+/rpa edit type Movement_Power
+/rpa edit range 10 Blocks
+/rpa edit description add The user can cast this spell at a target area they can see within 10 blocks of them. Their body is swallowed by magical essence, and they immediately teleport to the chosen location. The user cannot carry anyone else with them when using this Ability, and only objects that fit on their person travel with them. This Ability can be used to teleport horizontally, diagonally, or vertically as long as it is still within the 10 blocks range, and as long as the target area is a flat surface the user can stand on. This Ability can only be used once every 3 hours.
+/rpa edit modifiers create
+/rpa edit modifiers add Undead The Wraith is broken down into mist and teleports to the new location.
+
+/rpa create Spirit Rush
+/rpa edit type Movement_Power
+/rpa edit range 10 Blocks
+/rpa edit description add The user chooses a horizontal location within range and then rushes toward it, passing through people (but not barriers that would prevent movement) in their way. After arriving, an echo of them instantly repeats the dash and staggers anyone they passed through. Spirit Rush has a 1 hour cooldown.
+
+/rpa create Bralona Envelopment
+/rpa edit type Vehicle_Power
+/rpa edit range Self
+/rpa edit description add The Bralona can choose one voluntary target to envelop with their body. While enveloped, the Bralona cannot use any Abilities or Attacks, except ones specified in this Ability. Their target is considered their ‘Host’ and gains extra benefits based on the Bralona’s type. While enveloped, any damage the Host would take, the Bralona takes instead. This Ability has no cooldown, and the Bralona can freely exit/re-envelop at will.
+/rpa edit modifiers create
+/rpa edit modifiers add Bralla The Bralla partially fuses with the Host, forming a goo-layer around their body. The Bralla can form their mass into a solid Melee weapon (which cannot be disarmed) or Shield  for the Host to use, but can only form one of these at any given time, and can only change their shape once they’ve re-eneveloped a new person.
+/rpa edit modifiers add Bronn The Bronn layers their mechanical body over the Host. The Host is considered fully armored while the Bronn is enveloping them, and they gain one Block Counter per 6 hours. The Block Counter is not unique per host, meaning if they envelop someone and use the Block Counter, they do not gain a new Block Counter if they envelop a new person.
+
+/rpa create Mech-Suit
+/rpa edit type Vehicle_Power
+/rpa edit range Self
+/rpa edit description add The user can produce a mechanized suit of ‘armor’ that they can wear. They can only put on or remove this suit at their Control Unit in their Rental/Estate/Base. While wearing the Mech-Suit, they gain the following benefits: The user gains +1 CON, and +1 STR, that do break caps but do not offer additional point buy. The Mech-Suit can count as a disguise, or not, if the user removes the face cover/visor, and can be designed however the user wants it to look, as long as it is distinctly mechanical and bi-pedal. This suit can additionally act as a replacement for maims, returning function to the body (including eyes, legs, tongue, ears, etc.) This does not grant them armor, however Knight Summon can apply armor to the suit, or normal armor they are already wearing can merge with the suit. If the user is defeated in combat, they lose the bonus Stats, and it no longer counts as a disguise, but otherwise it can’t be fully removed from them unwillingly. They gain the benefits again if they repair the Mech-Suit at their Control Unit.
+
+/rpa create Pocket Dimension
+/rpa edit type Dimension_Power
+/rpa edit range Self
+/rpa edit description add The user can store up to a closet’s worth of items inside a pocket dimension or alternate dimension. This dimension cannot hold a living being, nor weapons, or Artifacts. If however the user is an Artifact holder and is presently using a disguise feature, they can store the Artifact inside the Pocket Dimension for up to 1 hour per day.
+
+/rpa create Anti-Control Chip
+/rpa edit type Control_Power
+/rpa edit range Self
+/rpa edit description add The user may install an anti-control device in the host. This anti-control device has several effects. Firstly, the Target becomes immune to all Control Powers. Secondly, the Target is immune to infection by all Afflictions. Thirdly, the Target becomes a receiver of remote communication. The user can install a Control Unit in their Rental/Estate/Base, and from there, communicate into the minds of those who have anti-control devices installed, however this is one-way communication. Up to two people can have anti-control devices installed at any time, though they can only be removed by the user in person before changing a Target.
+
+/rpa create Essence Corrupt
+/rpa edit type Control_Power
+/rpa edit range Emote Range
+/rpa edit description add The user is able to cast a congealed ball of Essence towards the target to inflict them with the Essence Corruption Curse for 7 days. During these 7 days, the Target gives off Occult status to any Occult detection mechanisms or Abilities depending on the planar alignment of the Ability Modifier. Additionally, this Ability can also be used on any surface, causing the immediate 5 block wide area to become Corrupted with that particular alignment (send in a Ticket to World Staff to inquire about corrupting Regalian plants and trees). This Ability has two different cooldowns, a 24 hour cooldown for people, and a 7 day cooldown for areas in Regalia. Some Races or Afflictions may have additional functions when affected by Essence Corrupt.
+/rpa edit modifiers create
+/rpa edit modifiers add Kathar The Kathar can only Essence Corrupt with Void.
+
+/rpa create Power Curse
+/rpa edit type Control_Power
+/rpa edit range Emote Range
+/rpa edit description add The user can choose a Target in Emote Range to curse. This person becomes instantly Cursed, and is controlled by the user. The user must then choose a direction (north, east, south, or west) and move the Target in that direction (this all happens instantly). The Target is moved by their total Strength Points and total Constitution Points combined, times two. If the Target would be moved over 20 Blocks (regardless if there is space), they are also Dazed for 2 minutes. Dazed allows them to still move and fight, they just cannot use Abilities or Mundane Techniques for this duration. This Ability has a 30 Minute Cooldown. The same person can only be affected by Power Curse (from any source) once every 30 minutes.
+
+/rpa create Power Struggle
+/rpa edit type Control_Power
+/rpa edit range Emote Range
+/rpa edit description add The user targets an individual they can see within range, using their magic to control them. If the target has 4 or less Strength, they are disarmed of their weapon. If the target has more than 4 Strength, they are forced to attack the person closest to them once (friend or foe). This attack is not a guaranteed hit. The same person can only be affected by Power Struggle (from any source) once per hour. Power Struggle has a 4 hour cooldown.
+
+/rpa create Bonded Telepathy
+/rpa edit type Info_Power
+/rpa edit range N/A
+/rpa edit description add The user may target another person creating a telepathic bond. These two may now telepathically communicate (via in-game Direct Message) across vast distances. This Ability has a 1 week cooldown before it can be applied to someone else, and only 1 person can ever be bonded to.
+
+/rpa create Tracking Node
+/rpa edit type Info_Power
+/rpa edit range Self
+/rpa edit description add The user can apply a tracking node that they create to someone by touching them. The user can then use a small hand-held transceiver to Track the individual for as long as the node is attached to the individual. This node is clandestine and hidden for the first hour it is attached to the person. After the first hour passes, the Node begins to passively beep, and the target is aware of its presence (and can remove/destroy it if they wish) The target must alert the user of their location while the node is active. This Ability has a 24 hour cooldown. The user can only have one Tracking Node active at any given time.
+
+/rpa create Altered Self
+/rpa edit type Morph_Power
+/rpa edit range Self
+/rpa edit description add The user can create a Magical disguise for themselves as some kind of mythical or magical creature, but never just a normal person or someone else. The appearance masks their identity, including all traits that could cause anyone to identify them, but it must always be the same. Aesthetics of the disguise (like being a literal skeleton) does not confer additional functions like ranged immunity. This disguise can only be removed at will by the user, and cannot be combined with any other Disguise Abilities or Specials.
+
+/rpa create Body Claws
+/rpa edit type Morph_Power
+/rpa edit range Self
+/rpa edit description add The user can fight using unarmed combat, and gains +2 Strength proficiency that cannot exceed the proficiency cap when doing so. This cannot be used whilst wielding a different weapon. These claws are sharp enough to be considered a bladed weapon for any abilities that require one. The moment they wield a weapon or stop fighting, this effect is removed.
+/rpa edit modifiers create
+/rpa edit modifiers add Asha This effect is caused by the Asha Claws. Asha Claws are counted as durable and sharp, enough to be considered bladed weapons. They can brace other weapons, and tear through armor.
+/rpa edit modifiers add Curses The Afflicted gains claws they can summon/un-summon, or choose to be permanent, and are durable and sharp, enough to be considered bladed weapons. They can brace other weapons, and tear through armor.
+
+/rpa create Area Wall
+/rpa edit type Link_Power
+/rpa edit range Emote Range
+/rpa edit description add The user Targets up to two targets in Emote Distance, and establishes a Link Power to them that disrupts any effects or buffs they gain from Weather or location based Abilities, including Abilities that increase Proficiency Points in Rentals/Estates/Bases. This Link Power lasts for 15 Minutes, after which it goes on a 2 Hour Cooldown.
+
+/rpa create Body Tether
+/rpa edit type Link_Power
+/rpa edit range 10 Blocks
+/rpa edit description add The Character chooses a Target within 10 Blocks of them. This Target is instantly Linked to the user, meaning the Target can no longer move further than 10 Blocks from the user. The Link may be manually dismissed, or breaks automatically after 10 minutes. This Ability has a 1 Hour Cooldown.
+/rpa edit modifiers create
+/rpa edit modifiers add Maraya The Link is made out of Maraya Hair, a long strand shooting out from their head or back and attaching to the target. This hair cannot be cut.
+
+/rpa create Combat Goliath
+/rpa edit type Link_Power
+/rpa edit range Self
+/rpa edit description add The user's body reacts to facing a strong opponent. At the start of Combat, the user may target one opponent. If this opponent has a higher Strength Proficiency than them (ignoring Link Powers or Buff Powers that increase it), their Proficiency is increased to that exact number, +1. This can break Proficiency Limit, but is removed the instant the user is no longer fighting. This effect cannot be switched to a different target and does not account for new combatants entering the scene. This Ability has a 30 minute Cooldown after having been removed.
+
+/rpa create Enchanted Buffer
+/rpa edit type Link_Power
+/rpa edit range Emote Range
+/rpa edit description add The user is rooted into place, being unable to move, or use any other Ability or Mundane Technique except for Enchanted Buffer, or Enchanted Wall. While Enchanted Well is maintained, the user can grant up to 5 HP to any Target (or multiple) person, in any desired combination, which is applied through a Link Power while this affects them. Additionally, the user becomes Immune to any type of Displacement, meaning the only way to cancel this Ability is either by choice, or by attacking the user in Melee. When the Ability is ended, it goes on a 2 Hour Cooldown.
+
+/rpa create Endurance Stim
+/rpa edit type Link_Power
+/rpa edit range Emote Range
+/rpa edit description add The user can target an ally in Emote Range and Links themselves to that Target. The Target gains +2 Constitution Proficiency that break caps for the duration of the Link Power. Multiple instances of Endurance Stim can stack on a user. The user can only use one instance of Steroid, Endurance or Speed Stim at a time. This Ability works as long as the Target is in Emote Range, though if Cancelled (voluntarily or through an Ability that Cancels Link Powers), it goes on a 5 Minute Cooldown.
+
+/rpa create Enfeebling Hex
+/rpa edit type Link_Power
+/rpa edit range Emote Range
+/rpa edit description add The user can target an enemy in Emote Distance and Links themselves to that Target. The Target gains -2 Strength Proficiency that can go into negative for the duration of the Link Power. Multiple instances of Enfeebling Hex can stack on a user. The user can only use one instance of Enfeebling, Weakening or Slowing Hex at a time. This Ability works as long as the Target is in Emote Range, though if Cancelled (voluntarily or through an Ability that Cancels Link Powers), it goes on a 5 Minute Cooldown.
+
+/rpa create Magic Prison
+/rpa edit type Link_Power
+/rpa edit range Emote Range
+/rpa edit description add The user immobilizes themselves and Links themselves to a Target in Emote Distance. This Target is instantly Rooted, which can last up to a maximum of 10 minutes, by a Magical prison forming around them. While Rooted, the Target cannot move in any way, but can still turn around, use Abilities and Mundane Techniques and fight back, and speak. They can do anything they could do while standing in one single spot. This ability goes on a 30 minute Cooldown as soon as the Link is broken. If a person was already affected by Magic Prison once in the last 2 hours, this Ability cannot be used on that person.
+
+/rpa create Ranged Interference
+/rpa edit type Link_Power
+/rpa edit range Emote Range
+/rpa edit description add The user immobilizes themselves and links to an individual they can see within range, interfering with the target's Ranged or Firearms Weapon. For as long as the Link is active, the target cannot utilize Mundane Techniques from their Weapon. The user cannot utilize any other Abilities while using this Link Power, or attack. This Ability works as long as the Target is in Emote Range, though if Cancelled (voluntarily or through an Ability that Cancels Link Powers), it goes on a 30 Minute Cooldown.
+
+/rpa create Shield Matrix
+/rpa edit type Link_Power
+/rpa edit range Emote Range
+/rpa edit description add The user is rooted into place, being unable to move, or use any other Ability or Mundane Technique, at all. While Shield Matrix is maintained, the user can Target one Ally in Emote Range, and project a Shield Matrix onto them, preventing any and all damage on them. Additionally, the user becomes immune to any type of Displacement, meaning the only way to Cancel this Ability is by attacking them with Ranged or Melee attacks or harming Abilities. The user can switch Target (but never on Self), but must go on a 1 minute recalibration Cooldown before Targeting a different Ally. When this Ability is ended, it goes on a 2 Hour Cooldown.
+
+/rpa create Slowing Hex
+/rpa edit type Link_Power
+/rpa edit range Emote Range
+/rpa edit description add The user can target an enemy in Emote Distance and Links themselves to that Target. The Target gains -2 Dexterity Proficiency that can go into negative for the duration of the Link Power. Multiple instances of Slowing Hex can stack on a user. The user can only use one instance of Enfeebling, Weakening or Slowing Hex at a time. This Ability works as long as the Target is in Emote Range, though if Cancelled (voluntarily or through an Ability that Cancels Link Powers), it goes on a 5 Minute Cooldown.
+
+/rpa create Speed Stim
+/rpa edit type Link_Power
+/rpa edit range Emote Range
+/rpa edit description add The user can target an ally in Emote Range and Links themselves to that Target. The Target gains +2 Dexterity Proficiency that break caps for the duration of the Link Power. Multiple instances of Speed Stim can stack on a user. The user can only use one instance of Steroid, Endurance or Speed Stim at a time. This Ability works as long as the Target is in Emote Range, though if Cancelled (voluntarily or through an Ability that Cancels Link Powers), it goes on a 5 Minute Cooldown.
+
+/rpa create Steroid Stim
+/rpa edit type Link_Power
+/rpa edit range Emote Range
+/rpa edit description add The user can target an ally in Emote Range and Links themselves to that Target. The Target gains +2 Strength Proficiency that can break caps for the duration of the Link Power. Multiple instances of Steroid Stim can stack on a user. The user can only use one instance of Steroid, Endurance or Speed Stim at a time. This Ability works as long as the Target is in Emote Range, though if Cancelled (voluntarily or through an Ability that Cancels Link Powers), it goes on a 5 Minute Cooldown.
+
+/rpa create Weakening Hex
+/rpa edit type Link_Power
+/rpa edit range Emote Range
+/rpa edit description add The user can target an enemy in Emote Distance and Links themselves to that Target. The Target gains -2 Constitution Proficiency that can go into negative for the duration of the Link Power. Multiple instances of Weakening Hex can stack on a user. The user can only use one instance of Enfeebling, Weakening or Slowing Hex at a time. This Ability works as long as the Target is in Emote Range, though if Cancelled (voluntarily or through an Ability that Cancels Link Powers), it goes on a 5 Minute Cooldown.
+
+/rpa create Draining Curse
+/rpa edit type Link_Power
+/rpa edit range Emote Range
+/rpa edit description add Connecting a Link Power to both targets, the user is able to trade Bonus HP pools between the two for as long as this Link Power is maintained. Draining Curse can be upheld for a maximum of 30 minutes, and goes on a 2 hour cooldown once ended.
+
+/rpa create Leap Denial
+/rpa edit type Counter_Power
+/rpa edit range Self
+/rpa edit description add When the user is targeted by a Mundane Technique or Ability that would allow someone to instantly leap, jump, charge, or teleport to them, the user can instantly prevent the caster from moving, and instead send them flying backwards away from the user instead. The target is launched back a number of blocks equal to how far they would’ve had to move to leap/teleport/etc to the user. (ex. If they used an Ability with the intent to leap 10 blocks, they would be knocked back 10 blocks instead.) This Ability has a 15 minute cooldown.
+
+/rpa create Target Disrupt
+/rpa edit type Counter_Power
+/rpa edit range Emote Range
+/rpa edit description add This ability can only be used as an immediate response to another person using a Spell Point Buy Ability, or Custom Kit Ability that targets a single specific Target. When used, this Ability allows the user to forcibly change the Target of the Ability onto anyone in Emote Range, but never onto themselves, or the person who originally used the Ability being redirected. If nobody else is in Emote Range, the targeted Ability is Countered instead. This Ability has a 2 Hour Cooldown.
+
+/rpa create Link Disrupt
+/rpa edit type Counter_Power
+/rpa edit range Emote Range
+/rpa edit description add The user may target any person in Emote Distance and cancel any Link Powers that are currently affecting a target. Additionally, the target cannot be affected by another Link Power for 15 minutes from any source. This ability has a 1 Hour Cooldown.
+
+/rpa create Leap Denial
+/rpa edit type Counter_Power
+/rpa edit range Emote Range
+/rpa edit description add When an Ability that would allow a character to instantly leap, jump, charge, or teleport to the user is used, the user is able to summon a ring of magic around themselves and anyone else within 3 blocks as an immediate reaction. For the next five minutes, anyone that targets a character inside the ring with an Ability that would allow them to leap toward a target are immediately sent back to their original location, and knocked an additional 10 blocks back away from the user. Once stopped, the target is unable to use Movement Powers for 30 minutes afterwards. Leap Denial has a 1 hour cooldown.
+
+/rpa create Magic Dampener
+/rpa edit type Region_Enchant
+/rpa edit range Region
+/rpa edit description add The user can deploy a Magic Dampener to their Rental/Estate/Base, making any and all Void, Exist, or Ordial Abilities unusable within the confines of this indoors region, gardens not included. Magic Dampeners do not distinguish between friend or foe, they block out all Abilities. A Magic Dampener must be a specific block (any block) with a sign on it clearly identifying it as a Magic Dampener. The Magic Dampener can be destroyed instantly with a single melee strike, removing its effect.
+
+/rpa create Attack Theory
+/rpa edit type Mundane_Technique
+/rpa edit range Emote Range
+/rpa edit description add The user must targets an ally in Emote Distance and Links themselves to that Target. The Target gains +2 Strength Proficiency that cannot break Proficiency Limit, or grant new Point Buy, for the duration of the Link Power. Multiple instances of Attack Theory cannot stack on a user, though one instance of Defense Theory and Endure Theory can be active on the same Target. The user can only use one instance of Attack, Defense, or Endure Theory at a time. This Ability works as long as the Target is in Emote Range, though if Cancelled (voluntarily or through an Ability that Cancels Link Powers, which this Technique is affected by), it goes on a 5 Minute Cooldown.
+
+/rpa create Backup Shot
+/rpa edit type Mundane_Technique
+/rpa edit range 2 Blocks
+/rpa edit description add This Mundane Technique only works on a Target that is about to attack, or already in the middle of Emoting an attack on the user. This Mundane Technique Counters any melee attack or Mundane Technique on the User, following with them shooting at the Target’s feet while also simultaneously jumping back. The Target is Rooted for 10 seconds, while the user is flung back 10 blocks backwards. Backup Shot has a 30 minute Cooldown.
+
+/rpa create Battle Flurry
+/rpa edit type Mundane_Technique
+/rpa edit range 1 Block
+/rpa edit description add The user lashes out instantaneously to strike those surrounding them. The user rolls one dice with a number for every character within range of this technique, and hits as many of them based on the number rolled, a minimum of one. (ex. 3 people in range is /dice 1-3) They can choose who gets hit or not, but this technique cannot be used if only one target is in range. This Mundane Technique can only be used once per day, with the single charge refreshing on server restart.
+
+/rpa create Belt Shot
+/rpa edit type Mundane_Technique
+/rpa edit range 10 Blocks
+/rpa edit description add The user rapidly loads and fires the weapon from the hip, causing a quick blow-out in short to medium range. Anyone in front of the user within 10 blocks is knocked back 5 Blocks to avoid getting hit by the shrapnel. Belt Shot has a 15 Minute Cooldown.
+
+/rpa create Berserker Fury
+/rpa edit type Mundane_Technique
+/rpa edit range Melee Range
+/rpa edit description add The user channels their anger, cleansing themselves of any debuff effect currently affecting them. The user is able to immediately make a guaranteed hit on any one person in melee distance. Berserker’s Fury cannot cleanse debuffs from Artifacts. Berserker's Fury can be used once per server restart.
+
+/rpa create Bloody Shot
+/rpa edit type Mundane_Technique
+/rpa edit range Emote Range
+/rpa edit description add The user fires a serrated projectile at a target, causing them to bleed for the next hour. This shot does no damage, but makes them unable to be healed during combat and leaves a blood trail for 30 minutes after combat ends. Bloody Shot has no effect on Artifact healing, and has a 1 hour cooldown.
+
+/rpa create Bonfire
+/rpa edit type Mundane_Technique
+/rpa edit range Self
+/rpa edit description add When not moving, engaging in combat, or using other Abilities, the character is able to mend their wounds. Entering this state allows the user to passively heal the single most recent wound they suffered every 10 minutes, and lasts until the user moves or is attacked. Once broken, Bonfire has a 2 hour cooldown.
+
+/rpa create Bunker Down
+/rpa edit type Mundane_Technique
+/rpa edit range Self
+/rpa edit description add Bunker Down allows the user to kneel and enter an immobile state while holding their shield. While kneeling, the user becomes immune to all abilities, mundane techniques, and attacks, regardless of effect. While in this stance, the user cannot attack or use any other abilities. There is enough space in this stance for a single other person to enter, placing them under the same immunity but also the same restrictions. This technique cannot be used to quick counter things, and should not be quick swapped on/off, but used pre-emptively and for extended periods of time to defend oneself.
+
+/rpa create Cast Down
+/rpa edit type Mundane_Technique
+/rpa edit range Emote Range
+/rpa edit description add The user produces a makeshift hook or alchemical ‘bomb’ that they must use instantly. They may target one person they can see who is currently on a higher ledge than them, or on a higher position that is unreachable to them. The target person is pulled off of the ledge (safely), landing on the nearest open ground that is the same level as the user. This does not inflict any damage on the Target. This Mundane Technique has a 30 Minute Cooldown.
+
+/rpa create Concussive Strike
+/rpa edit type Mundane_Technique
+/rpa edit range Melee Range
+/rpa edit description add The user swings their weapon at a target, confusing them for 15 minutes. While confused, the target is unable to target the user with Powers of any kind. Additionally, if the target is currently connected to a Link Power, this Technique counts as a guaranteed hit, and ends any Links they are using/effected by. This Technique has a 1 Hour Cooldown.
+
+/rpa create Covering Fire
+/rpa edit type Mundane_Technique
+/rpa edit range Emote Range
+/rpa edit description add The user fires a constant stream of inaccurate but intimidating shots to provide safety for their allies. As a reaction to an allies movement, the user is able to activate this Technique in order to ensure they are not attacked for as long as they need to reposition in one emote. This technique ends the moment the user’s ally stops moving to attack, and has a 2 hour cooldown.
+
+/rpa create Critical Hit
+/rpa edit type Mundane_Technique
+/rpa edit range Emote Range
+/rpa edit description add The user chooses a target, charging a shot for ten minutes. If left uninterrupted, the user fires a bullet that deals double the damage of a default shot. This Technique cannot be used in combination with Quick Cover, and has a cooldown of 2 Hours. This Technique cannot be Technique Parried. If the user is interrupted, this Technique goes on a 10 minute cooldown instead.
+
+/rpa create Crocodile Tears
+/rpa edit type Mundane_Technique
+/rpa edit range Self
+/rpa edit description add The user falls to the ground and feigns defeat. The user can end their charade after 10 minutes, or if they’re attacked. Once ended, the user is able to make a guaranteed hit against any character within melee range. Crocodile Tears can be used once per server restart.
+
+/rpa create Defense Theory
+/rpa edit type Mundane_Technique
+/rpa edit range Emote Range
+/rpa edit description add The user must targets an ally in Emote Distance and Links themselves to that Target. The Target gains +2 Constitution Proficiency that cannot break Proficiency Limit, or grant new Point Buy, for the duration of the Link Power. Multiple instances of Attack Theory cannot stack on a user, though one instance of Attack Theory and Endure Theory can be active on the same Target. The user can only use one instance of Attack, Defense, or Endure Theory at a time. This Ability works as long as the Target is in Emote Range, though if Cancelled (voluntarily or through an Ability that Cancels Link Powers, which this Technique is affected by), it goes on a 5 Minute Cooldown.
+
+/rpa create Disarming Strike
+/rpa edit type Mundane_Technique
+/rpa edit range Melee Range
+/rpa edit description add The user can attempt to disarm a target within melee range. If the user’s Strength Stat is 4 or more points higher than the target’s, the target is immediately disarmed. If not, this Technique fails. Disarming Strike has a 2 hour cooldown.
+
+/rpa create Dye Shot
+/rpa edit type Mundane_Technique
+/rpa edit range Emote Range
+/rpa edit description add The user fires an ink-stained projectile at a target. This projectile does no damage, but stains them with a chosen color. While stained, the target is blinded until they spend 10 seconds wiping their eyes. The target can still defend themselves, but cannot actively attack other characters. Dye Shot has a 2 hour cooldown, and the same person is immune to any subsequent Dye Shots for that period.
+
+/rpa create Endure Theory
+/rpa edit type Mundane_Technique
+/rpa edit range Emote Range
+/rpa edit description add The user must targets an ally in Emote Distance and Links themselves to that Target. The Target gains +2 Dexterity Proficiency that cannot break Proficiency Limit, or grant new Point Buy, for the duration of the Link Power. Multiple instances of Endure Theory cannot stack on a user, though one instance of Attack Theory and Defense Theory can be active on the same Target. The user can only use one instance of Attack, Defense, or Endure Theory at a time. This Ability works as long as the Target is in Emote Range, though if Cancelled (voluntarily or through an Ability that Cancels Link Powers, which this Technique is affected by), it goes on a 5 Minute Cooldown.
+
+/rpa create Evading Dash
+/rpa edit type Mundane_Technique
+/rpa edit range 10 Block
+/rpa edit description add The user rushes from one point to another. Choosing an unoccupied place within range that they can see, the user sprints in a straight line. While sprinting, the user is unable to be targeted, but also cannot attack or do anything but sprint. Evading Dash has a 2 hour cooldown.
+
+/rpa create Force Smash
+/rpa edit type Mundane_Technique
+/rpa edit range Melee Range
+/rpa edit description add The user can attack with such ferocity that the user is able to destroy any mundane or Ability-Summoned shield instantly by shattering it on impact. If the target is using a Mundane Technique or Ability that relies on them having a Shield, it is ignored, and the Shield is destroyed anyways. The user can only destroy one shield per day. If this Technique is countered, and does not destroy a shield, it goes on a 30 minute cooldown.
+
+/rpa create Heavy Charge
+/rpa edit type Mundane_Technique
+/rpa edit range 5 Block
+/rpa edit description add The user charges up to 5 blocks in a straight line, forcibly breaking through Mundane Cover and Shield-Walls, creating an opening. They can additionally use this Mundane Technique to break through non-metal 1 block thin walls or doors. The user is then Staggered. Heavy Charge can be used once per server restart.
+
+/rpa create Hook Shot
+/rpa edit type Mundane_Technique
+/rpa edit range Emote Range
+/rpa edit description add The user attaches a sturdy rope to the end of an arrow. This can be shot upwards whilst directly beneath a block, allowing the user to climb to the top of it. Additionally, this can be shot across a horizontal gap to establish a zip-line that can be slid down to cross to the other side. This ability must always be fired downwards by at least a single block. The rope is only strong enough to support one person at a time. Hook Shot has a 1 hour cooldown.
+
+/rpa create Interception
+/rpa edit type Mundane_Technique
+/rpa edit range 5 Blocks
+/rpa edit description add As a reaction to an attack or Mundane Technique, the user can dive in and protect a target within 5 blocks from them from incoming harm. The user immediately moves in front of the target, becoming the target of the Mundane Technique from any category instead. The user cannot nullify or avoid the attack or Mundane Technique. Once this effect ends, it goes on a 1 Hour cooldown.
+
+/rpa create Knockback Sweep
+/rpa edit type Mundane_Technique
+/rpa edit range Melee Range
+/rpa edit description add Knockback Sweep allows the user to make a wide arch-swing. Anyone within Melee Range on either side or in front of the user is knocked back by 5 blocks. If there is a wall behind the target, or if they are rooted, they are instead struck with a guaranteed hit. This still counts as a displacement for the purposes of immunities/counters. This Mundane Technique has a 30 minute cooldown.
+
+/rpa create Knocking Shot
+/rpa edit type Mundane_Technique
+/rpa edit range Emote Range
+/rpa edit description add This Mundane Technique specifically cannot be used in range under 5 Blocks as the Target would be too close. This shot causes the opponent to Stagger any ongoing attack, Ability or Mundane Technique as well as get Knocked Back by 10 blocks. This Mundane Technique does not do any damage. Knocking Shot has a 20 minute Cooldown.
+
+/rpa create Leaping Charge
+/rpa edit type Mundane_Technique
+/rpa edit range Emote Range
 /rpa edit description add Leaping Charge allows the user to instantly rush to a Target Enemy in Emote Range. The user always lands on the side closest to themselves. If the Target is running away or fleeing, this Technique also includes a guaranteed hit. This does not allow for any vertical movement outside of slight inclines. Leaping Charge has a 60 Minute Cooldown.
+
+/rpa create Leader’s Rally
+/rpa edit type Mundane_Technique
+/rpa edit range Emote Range
+/rpa edit description add The user is able to rally their allies, targeting up to two other people, bolstering their resolve and giving each person 2 HP Counters. This technique requires an ally to be used, but cannot be used in Staff Moderated Raids. Once these counters are removed, Leader’s rally goes on a 2 hour cooldown. The same person can only be affected by Leader's Rally once per hour.
+
+/rpa create Makeshift Weapon
+/rpa edit type Mundane_Technique
+/rpa edit range Self
+/rpa edit description add The user produces a makeshift weapon out of mechanical parts or alchemical concoctions. This Weapon can be Ranged, Firearm, or Melee weapon, however it does not count as a Weapon Summon. This Weapon can only be used in 3 distinct actions, whether that is 3 Mundane Techniques, 3 Abilities, or 3 attack Emotes (or any combination of them). (Even if the actions are countered/avoided/missed, they are still ‘used’). After the 3 uses have been used up, the Weapon disintegrates. This Mundane Technique has a 2 Hour Cooldown.
+
+/rpa create Marking Shot
+/rpa edit type Mundane_Technique
+/rpa edit range Emote Range
+/rpa edit description add The user fires a marked projectile at the Target. This projectile does not harm the Target, but marks them for any Ally to use. If an Ally targets the Target with an Ability, Mundane Technique, or regular free-form combat-roleplay dice roll, the next use auto-succeeds the dice roll at the highest dice possible. This Mundane Technique has a 15 minute cooldown.
+
+/rpa create Piercing Shot
+/rpa edit type Mundane_Technique
+/rpa edit range Emote Range
+/rpa edit description add The user fires a Shot that is of such a heavy caliber that it can instantly smash any summoned wall, alchemical obstacle, physical mundane obstruction, Barrier, or Mundane Cover used by a person. If the Target is hiding behind an obstacle or barricade, it is instantly destroyed. Additionally, they get a free 'shot' on only person directly behind the object/wall, piercing through the wall when it breaks it. Piercing Shot has a 1 Hour Cooldown.
+
+/rpa create Pinning Throw
+/rpa edit type Mundane_Technique
+/rpa edit range Emote Range
+/rpa edit description add Pinning Throw allows the user to throw a Short Blade (it does not have to be their main hand weapon, it can also be a pocket knife) to pin a person against a wall or floor surface for long enough to allow the user to chain up another Mundane Technique or attack Emote. Note, this does not Stun the Target, they are still able to fight back, just not dodge or escape. This Mundane Technique has a 30 minute cooldown. If the user doesn't attack or intend to attack, the target is freed after a minute.
+
+/rpa create Purifying Shot
+/rpa edit type Mundane_Technique
+/rpa edit range Emote Range
+/rpa edit description add The user fires a Purifying Shot at a Target that Silences the target for the next 10 minutes. This shot does not harm the Target. Purifying Shot has a 40 minute Cooldown.
+
+/rpa create Quick Cover
+/rpa edit type Mundane_Technique
+/rpa edit range Self
+/rpa edit description add The user crouches and quickly produces make-shift Cover for themselves (alchemy, engineering, deployable, etc.). This Cover is only large enough for themselves, and remains only active so long as they do not move. While behind this Cover, the user counts as behind an obstacle (from all directions) protecting them from certain Abilities and Mundane Techniques that need clear line of sight, however not from melee attacks. The user can still use Abilities and Ranged Mundane Techniques from behind this Cover. If the user is attacked or moves, the Cover is instantly destroyed. This Ability has a 2 Hour Cooldown.
+
+/rpa create Rage Counter
+/rpa edit type Mundane_Technique
+/rpa edit range Melee Range
+/rpa edit description add On being hit by a basic attack or Mundane Technique, the user is able to immediately make a guaranteed strike against the target that attacked them before reacting to the attack they were targeted with themselves, as long as they are in range. This Technique cannot be used if the triggering effect was countered, cancelled, or ignored. This Technique can be used once every 2 Hours.
+
+/rpa create Rapid Blast
+/rpa edit type Mundane_Technique
+/rpa edit range Emote Range
+/rpa edit description add The user uses their ranged weapon arm to fire a single Mundane Technique at a Target in Emote Range. They must choose any Ranged Weapon Point Buy Ability except Quick Cover and Tripwire Deploy, and have this Mundane Technique count as one of those Abilities (having the pack is not required). When the Ability is complete, this Ability goes on a 1 Hour Cooldown.
+
+/rpa create Redstone Radio
+/rpa edit type Mundane_Technique
+/rpa edit range Self
+/rpa edit description add The user produces two Redstone Radios, one for themselves, and one for another person. They may communicate to each other remotely regardless of distance, however it is not possible to whisper into Redstone Radios, regular Local Chat must be spoken, and responses (received in Direct Message) must be emoted out. A new pair can be created, causing both to remotely fall apart. The Redstone Radio belonging to the other person can be stolen, but the one owned by the creator cannot be removed from them. Additionally, Redstone Radios can track each other like Radars. However, when this feature is activated, both Radio holders must emote a loud beeping noise repeatedly while the devices are searching. Radios only ever pick up the voice/sounds of the owner, other people cannot speak into them, nor is ambient noise/background conversation picked up.
+
+/rpa create Shield Block
+/rpa edit type Mundane_Technique
+/rpa edit range Self
+/rpa edit description add Shield Block allows the user to block 1 Melee Attack per hour as long as they are carrying an intact shield.
+
+/rpa create Shield Wall
+/rpa edit type Mundane_Technique
+/rpa edit range Self
+/rpa edit description add Shield Wall allows the user to move their shield in a direction and gain immunity to abilities and mundane techniques or attacks from that direction. The user can still perform basic melee attacks (not Abilities) in this state, but can only move at a walking pace. The user can redirect where their shield is pointing to follow the movements of others, though cannot rapidly move their shield to block attacks that come at their exposed back, or to catch up with people using movement abilities. A single person can position themselves behind the user to also become immune, allowing them to use exclusively ranged abilities or techniques from behind cover. Once this ability is canceled, it goes on a 2 hour cooldown. This ability cannot be used in reaction to anything, except for Basic Ranged/Firearm Shot, and must be used pre-emptively for all other effects.
+
+/rpa create Sonic Boom
+/rpa edit type Mundane_Technique
+/rpa edit range Emote Range
+/rpa edit description add The user may target any person in Emote Distance who is not already affected by Link Disrupt or Sonic Boom, and apply a Link Power to them that Cancels any other Link Power applied to them while the Link Power is maintained. Sonic Boom can however be disrupted by other Link Power Counters besides Link Disrupt and Sonic Boom. This Ability cannot be switched between Targets, and goes on a 10 minute Cooldown when Canceled.
+
+/rpa create Splash Shot
+/rpa edit type Mundane_Technique
+/rpa edit range 5 Blocks
+/rpa edit description add The user fires a bursting projectile of some kind at any character within range, affecting them and any other characters within 1 block of the target. Anyone caught within range of this technique is hit with a concussive force, causing them to be knocked over. Splash Shot has a 30 minute cooldown.
+
+/rpa create Spray and Pray
+/rpa edit type Mundane_Technique
+/rpa edit range 5 Blocks
+/rpa edit description add The user rapidly loads and unloads their weapon, releasing a flurry of inaccurate shots on anyone within range. The user performs a /dice roll with a number for every character within range of this technique, and hits as many of them based on the number rolled, with a minimum of zero (ex. 3 people in range is /dice 0 3). They can choose who gets hit or not, but this technique cannot be used if only one target is in range. Spray and Pray can only be used once per day, with the single charge refreshing on server restart.
+
+/rpa create Steady Body
+/rpa edit type Mundane_Technique
+/rpa edit range Self
+/rpa edit description add The user braces themselves against (or avoids) a single Displacement or Root, countering that Ability. After Steady Body is used, they are immune to Displacements and Roots for 5 minutes. This has no effect on Abilities from Artifacts. Steady Body can only be used once per server restart.
+
+/rpa create Technique Parry
+/rpa edit type Mundane_Technique
+/rpa edit range Melee Range
+/rpa edit description add Technique Parry allows the user to protect themselves from an incoming Mundane Technique used on them from Melee Weapon Point Buy, Ranged Weapon Point Buy, or Firearms Point Buy, effectively nullifying it on them alone. This Mundane Technique has a 60 minute cooldown. This does not work on Technique Parry.
+
+/rpa create Tripwire Deploy
+/rpa edit type Mundane_Technique
+/rpa edit range 15 Blocks
+/rpa edit description add The user shoots a series of Tripwire Shots around themselves that net/wire/web an area in a 15 block range around them. This applies the Approach Debuff on anyone who attempts to move in their direction. It does not impede movement of foes or allies in any other direction except when running straight at the user. Instead of running, others must walk at normal walking speed, also nullifying Asha Speed. The Approach Debuff is active for 3 minutes, and moves with the user if they move, always applying within 15 blocks. This Ability has a 10 minute Cooldown.
+
+/rpa create Winging Shot
+/rpa edit type Mundane_Technique
+/rpa edit range Emote Range
+/rpa edit description add The user rapidly loads and fires their weapon, automatically hitting a target within range. This technique does no damage, but Staggers them. Winging Shot has a 2 hour cooldown.
