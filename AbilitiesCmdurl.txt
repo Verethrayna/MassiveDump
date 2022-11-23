@@ -781,6 +781,11 @@ rpa edit modifiers add Solvaan The projectile weapons are always made out of mis
 /rpa edit range 15 Blocks
 /rpa edit description add The user shoots a series of Tripwire Shots around themselves that net/wire/web an area in a 15 block range around them. This applies the Approach Debuff on anyone who attempts to move in their direction. It does not impede movement of foes or allies in any other direction except when running straight at the user. Instead of running, others must walk at normal walking speed, also nullifying Asha Speed. The Approach Debuff is active for 3 minutes, and moves with the user if they move, always applying within 15 blocks. This Ability has a 10 minute Cooldown.
 
+/rpa create Unarmed Expert
+/rpa edit type Mundane_Technique
+/rpa edit range Self
+/rpa edit description add The user is trained as a professional in unarmed combat, allowing them to use their fists as weapons. The user’s unarmed strikes bypass any immunity to unarmed combat, and can allow the user to use other Mundane Techniques from the Melee Weapon Point Buy without a weapon. 
+
 /rpa create Winging Shot
 /rpa edit type Mundane_Technique
 /rpa edit range Emote Range
