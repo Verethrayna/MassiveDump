@@ -295,7 +295,7 @@ rpa edit modifiers add Solvaan The projectile weapons are always made out of mis
 /rpa create Magic Throw
 /rpa edit type Skill_Power
 /rpa edit range Emote Range
-/rpa edit description add This Ability can only be used if the wielder has a Melee weapon. When used, the user throws their Weapon at a Target in Emote Range. The user may then choose any Ranged Weapon Point Buy Ability except Quick Cover and Tripwire Deploy, and have this throw count as one of those Abilities (having the pack is not required), but as a Power instead of a Mundane Technique.. When the Ability is complete, the weapon flies or teleports back to their hand. This Ability has a 1 Hour Cooldown.
+/rpa edit description add This Power can only be used if the wielder has a Melee weapon. When used, the user throws their Weapon at a Target in Emote Range. The user may then choose any Ranged Weapon Point Buy Ability except Quick Cover, Tripwire Deploy, Hook Shot, and Evading Dash, and have this throw count as one of those Abilities (having the pack is not required), but as a Power instead of a Mundane Technique. When the Ability is complete, the weapon flies or teleports back to their hand.  Magic Throw has a 1 Hour Cooldown. 
 
 /rpa create Perfect Copy
 /rpa edit type Skill_Power
