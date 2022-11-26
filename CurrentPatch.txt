@@ -1,4 +1,4 @@
-/rpa create Unarmed Expert
-/rpa edit type Mundane_Technique
-/rpa edit range Self
-/rpa edit description add The user is trained as a professional in unarmed combat, allowing them to use their fists as weapons. The user’s unarmed strikes bypass any immunity to unarmed combat, and can allow the user to use other Mundane Techniques from the Melee Weapon Point Buy without a weapon. 
+/rpa create Enchanted Buffer
+/rpa edit type Link_Power
+/rpa edit range Emote Range
+/rpa edit description add The user is rooted into place, being unable to move, or use any other Ability or Mundane Technique except for Enchanted Buffer, or Enchanted Wall. While Enchanted Buffer is maintained, the user can grant up to 5 HP to any Target (or multiple) person, in any desired combination, which is applied through a Link Power while this affects them. Additionally, the user becomes Immune to any type of Displacement, meaning the only way to cancel this Ability is either by choice, or by attacking the user in Melee. When the Ability is ended, it goes on a 2 Hour Cooldown.
